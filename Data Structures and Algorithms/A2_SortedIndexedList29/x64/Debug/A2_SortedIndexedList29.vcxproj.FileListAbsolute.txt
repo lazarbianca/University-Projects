@@ -1,0 +1,2 @@
+C:\Users\ACASA\source\DTandAlg\A2_SortedIndexedList29\x64\Debug\A2_SortedIndexedList29.exe
+D:\dtAlg\A2_SortedIndexedList29\x64\Debug\A2_SortedIndexedList29.exe

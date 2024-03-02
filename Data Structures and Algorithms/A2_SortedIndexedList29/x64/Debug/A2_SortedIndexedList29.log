@@ -1,0 +1,15 @@
+﻿  App.cpp
+  ExtendedTest.cpp
+D:\dtAlg\A2_SortedIndexedList29\ExtendedTest.cpp(100,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\dtAlg\A2_SortedIndexedList29\ExtendedTest.cpp(115,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\dtAlg\A2_SortedIndexedList29\ExtendedTest.cpp(129,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\dtAlg\A2_SortedIndexedList29\ExtendedTest.cpp(139,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\dtAlg\A2_SortedIndexedList29\ExtendedTest.cpp(247,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\dtAlg\A2_SortedIndexedList29\ExtendedTest.cpp(299,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ListIterator.cpp
+  ShortTest.cpp
+  SortedIndexedList.cpp
+  Generating Code...
+  A2_SortedIndexedList29.vcxproj -> D:\dtAlg\A2_SortedIndexedList29\x64\Debug\A2_SortedIndexedList29.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

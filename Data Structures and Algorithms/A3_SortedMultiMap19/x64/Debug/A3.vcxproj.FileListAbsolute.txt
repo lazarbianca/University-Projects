@@ -1,0 +1,4 @@
+C:\Users\ACASA\source\DTandAlg\A3_SortedMultiMap19\x64\Debug\A3.exe
+C:\Users\DARIA\Downloads\A3-DSA-BIBI\A3_SortedMultiMap19\x64\Debug\A3.exe
+C:\Users\ACASA\source\DTandAlg\A3-DSA-BIBI\A3_SortedMultiMap19\x64\Debug\A3.exe
+D:\dtAlg\A3-DSA-BIBI\A3_SortedMultiMap19\x64\Debug\A3.exe
