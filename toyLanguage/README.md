@@ -1,6 +1,6 @@
 
 # toyLanguage
-University project using the Model-View-Controller architectural pattern and Object-Oriented concepts; written in java.  
+University project for Advanced Methods of Programming course, using the Model-View-Controller architectural pattern and Object-Oriented concepts; written in java.  
 ## Main interpreter features include:
 
 Variable declaration, assignment, and conditional statements.  
@@ -13,4 +13,4 @@ Heap management.
 Type checker.  
 Garbage collector.  
 
-**Note:** Final version to be uploaded. Includes a graphical user interface designed in JavaFX.
+Final version uploaded. Includes a graphical user interface using JavaFX.
