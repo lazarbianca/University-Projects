@@ -1,0 +1,16 @@
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[print( 5+ 2 <  1)]},
+ symTable=MyDictionary{map={}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=print( 5+ 2 <  1)}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[]},
+ symTable=MyDictionary{map={}},
+ out=MyList{output=[ false]},
+ fileTable=,
+ heap={},
+ originalProgram=print( 5+ 2 <  1)}
