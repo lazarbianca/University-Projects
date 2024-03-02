@@ -13,4 +13,4 @@ Heap management.
 Type checker.  
 Garbage collector.  
 
-**Note:** Final version to be uploaded. Includes a graphical user interface designed in JavaFX.
+Final version uploaded. Includes a graphical user interface using JavaFX.
