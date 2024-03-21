@@ -1,6 +1,6 @@
 
 # toyLanguage
-University project for Advanced Methods of Programming course, using the Model-View-Controller architectural pattern and Object-Oriented concepts; written in java.  
+Implemented interpreter for a toy language for the Advanced Methods of Programming course, using the Model-View-Controller architectural pattern and Object-Oriented concepts; written in Java.  
 ## Main interpreter features include:
 
 Variable declaration, assignment, and conditional statements.  
