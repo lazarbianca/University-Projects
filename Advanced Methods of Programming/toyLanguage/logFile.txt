@@ -1,16 +1,256 @@
 PrgState{ 
  ID = 1 
-exeStack=MyStack{stack=[print( 5+ 2 <  1)]},
+exeStack=MyStack{stack=[(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))]},
  symTable=MyDictionary{map={}},
  out=MyList{output=[]},
  fileTable=,
  heap={},
- originalProgram=print( 5+ 2 <  1)}
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))), int v]},
+ symTable=MyDictionary{map={}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))), int v]},
+ symTable=MyDictionary{map={}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v)))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v)))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[(fork((int a;(a = 15;print(a))));print(v)), fork((v = 30;print(v)))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[(fork((int a;(a = 15;print(a))));print(v)), fork((v = 30;print(v)))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[(fork((int a;(a = 15;print(a))));print(v))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 2 
+exeStack=MyStack{stack=[(v = 30;print(v))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(v = 30;print(v))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[(fork((int a;(a = 15;print(a))));print(v))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 2 
+exeStack=MyStack{stack=[(v = 30;print(v))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(v = 30;print(v))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[print(v), fork((int a;(a = 15;print(a))))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 2 
+exeStack=MyStack{stack=[print(v), v = 30]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(v = 30;print(v))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[print(v), fork((int a;(a = 15;print(a))))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 2 
+exeStack=MyStack{stack=[print(v), v = 30]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(v = 30;print(v))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[print(v)]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 2 
+exeStack=MyStack{stack=[print(v)]},
+ symTable=MyDictionary{map={v= 30}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(v = 30;print(v))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[(int a;(a = 15;print(a)))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
+PrgState{ 
+ ID = 1 
+exeStack=MyStack{stack=[print(v)]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 2 
+exeStack=MyStack{stack=[print(v)]},
+ symTable=MyDictionary{map={v= 30}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(v = 30;print(v))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[(int a;(a = 15;print(a)))]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
 PrgState{ 
  ID = 1 
 exeStack=MyStack{stack=[]},
- symTable=MyDictionary{map={}},
- out=MyList{output=[ false]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[ 0,  30]},
  fileTable=,
  heap={},
- originalProgram=print( 5+ 2 <  1)}
+ originalProgram=(int v;(fork((v = 30;print(v)));(fork((int a;(a = 15;print(a))));print(v))))}
+PrgState{ 
+ ID = 2 
+exeStack=MyStack{stack=[]},
+ symTable=MyDictionary{map={v= 30}},
+ out=MyList{output=[ 0,  30]},
+ fileTable=,
+ heap={},
+ originalProgram=(v = 30;print(v))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[(a = 15;print(a)), int a]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[ 0,  30]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[(a = 15;print(a)), int a]},
+ symTable=MyDictionary{map={v= 0}},
+ out=MyList{output=[ 0,  30]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[(a = 15;print(a))]},
+ symTable=MyDictionary{map={a= 0, v= 0}},
+ out=MyList{output=[ 0,  30]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[(a = 15;print(a))]},
+ symTable=MyDictionary{map={a= 0, v= 0}},
+ out=MyList{output=[ 0,  30]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[print(a), a = 15]},
+ symTable=MyDictionary{map={a= 0, v= 0}},
+ out=MyList{output=[ 0,  30]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[print(a), a = 15]},
+ symTable=MyDictionary{map={a= 0, v= 0}},
+ out=MyList{output=[ 0,  30]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[print(a)]},
+ symTable=MyDictionary{map={a= 15, v= 0}},
+ out=MyList{output=[ 0,  30]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[print(a)]},
+ symTable=MyDictionary{map={a= 15, v= 0}},
+ out=MyList{output=[ 0,  30]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
+PrgState{ 
+ ID = 3 
+exeStack=MyStack{stack=[]},
+ symTable=MyDictionary{map={a= 15, v= 0}},
+ out=MyList{output=[ 0,  30,  15]},
+ fileTable=,
+ heap={},
+ originalProgram=(int a;(a = 15;print(a)))}
