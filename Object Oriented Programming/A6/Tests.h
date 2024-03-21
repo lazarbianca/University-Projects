@@ -1,0 +1,12 @@
+#pragma once
+void testAddService();
+void testRemoveService();
+void testUpdateService();
+void testDynamicArray();
+void testGetAllDataService();
+void testTutorial();
+void testAddToWatchlistService();
+void testRemoveFromWatchlistService();
+void testUpdateWatchlistService();
+void testGetWatchlistDataService();
+void testAll();
