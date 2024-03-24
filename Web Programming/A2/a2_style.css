@@ -1,0 +1,147 @@
+.barchart-Wrapper {
+  /* behaves as table for alligned elements*/
+  display: table;
+  position: relative;
+  margin: 2.5% 5%;
+  height: 300px;
+}
+.barChart-Container {
+  display: table-cell;
+  width: 100%; /*of the barchart-Wrapper*/
+  height: 100%;
+}
+.barchart {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.barchart-Col {
+  position: relative;
+  vertical-align: bottom; /*bottom of barchart*/
+  display: table-cell;
+  height: 100%;
+}
+.barchart-Bar {
+  /* within .barchart-Col */
+  position: relative;
+  width: 35%;
+  margin: auto;
+}
+.barchart-BarFooter {
+  /* The Ox axis; within .barchart-Col */
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.barchart-BarFooter h3 {
+  /* the h3 of class .barchart-BarFooter */
+  color: darkred;
+}
+.barchart-PercentageCol {
+  position: absolute;
+  height: 100%; /* out of bar wrapper */
+  width: 100%;
+}
+.barchart-Percentage {
+  /* the distance between Oy lines */
+  height: 25%;
+  position: relative;
+}
+.barchart-Percentage:after {
+  border-bottom: 3px solid black; /* below the Percentage */
+  content: "";
+  position: absolute;
+  width: 100%; /* out of bar wrapper */
+  z-index: -1; /* stack order: lines should appear behind text and bar charts*/
+}
+.barchart-PercentageText {
+  position: absolute;
+  top: -8px; /* to put percentage text in front of the corresponding line*/
+  padding-right: 1%; /* to have some white space to the right of % */
+  background-color: white; /* so that the lines behind do not obstruct text */
+  color: #292929;
+  font-size: 15px;
+}
+
+/* Bar colors */
+.html_css-bar {
+  background-color: cadetblue;
+}
+.js-bar {
+  background-color: indianred;
+}
+.python-bar {
+  background-color: darkolivegreen;
+}
+.sql-bar {
+  background-color: darkgoldenrod;
+}
+.ts-bar {
+  background-color: rebeccapurple;
+}
+.bash-bar {
+  background-color: firebrick;
+}
+
+.x-bar {
+  background-color: firebrick;
+}
+/* menu: */
+.menu-Container {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #314454;
+  position: fixed;
+}
+.menu-Container a {
+  /*links within menu-Container*/
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display: inline-block;
+}
+.menu-Container ul {
+  /*unordered lists within menu-Container*/
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.menu-Container ul li {
+  /*list items within unordered lists within menu-Container*/
+  /* display menu options horizontally */
+  display: inline-block;
+  position: relative;
+}
+.menu-Container ul li:hover {
+  /*list items within (...) when user hovers over them*/
+  /* selected menu item gets highlighted */
+  background: #4b657b;
+}
+.menu-Container ul li:hover ul {
+  /* displays the last ul (the submenu) when the parent list (menu option)
+   is hovered over*/
+  display: block;
+}
+.menu-Container ul li ul {
+  /*the last ul(submenu) is initially hidden (not displayed)*/
+  position: absolute;
+  width: 200px;
+  bottom: 100%;
+  display: none;
+}
+.menu-Container ul li ul li {
+  background: #4b657b;
+  display: block;
+}
+ul li ul li a {
+  /* the links within the submenu */
+  display: block;
+}
+.menu-Container ul li ul li:hover {
+  /* selected submenu item gets highlighted */
+  background: #6987a1;
+}
