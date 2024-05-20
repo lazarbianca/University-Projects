@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./jquery-3.7.1.js"></script>
+    <script>
+      function confirmationDialog(id) {
+        let text = "Press a button!\nEither OK or Cancel.";
+        if (confirm(text) == true) {
+          $.ajax({
+            type: "POST",
+            url: "delete.php",
+            data: { id: id },
+            success: function (response) {
+              $("#message").text("Car deleted successfully!");
+            },
+            error: function () {
+              $("#message").text("Error deleting car. Please try again.");
+            },
+          });
+          text = "You pressed OK!";
+        } else {
+          text = "You canceled!";
+        }
+        document.getElementById("message").innerHTML = text;
+      }
+    </script>
+    <title>Car Management</title>
+  </head>
+  <body>
+    <h1>Car Management System</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="add-page.html">Add a car</a></li>
+    </ul>
+    <div id="car-list"></div>
+
+    <script>
+      $(document).ready(function () {
+        // Fetch car data on document load
+        $.ajax({
+          type: "GET",
+          url: "fetch.php",
+          dataType: "json",
+          success: function (data) {
+            if (data.length > 0) {
+              // Display car data
+              const carList = document.getElementById("car-list");
+              data.forEach((car) => {
+                carList.innerHTML += `
+                                <p>Model: ${car.model}</p>
+                                <p>Engine Power: ${car.engine_power}</p>
+                                <p>Fuel: ${car.fuel}</p>
+                                <p>Price: ${car.price}</p>
+                                <p>Color: ${car.color}</p>
+                                <p>Age: ${car.age}</p>
+                                <p>History: ${car.history}</p>
+                                <a href="update-page.php?id=${car.id}">Update</a>
+                                <button onclick="confirmationDialog(${car.id})">Delete</button>
+                                <div id="message"></div>
+                                <hr>
+                            `;
+              });
+            } else {
+              carList.innerHTML = "<p>No cars found.</p>";
+            }
+          },
+          error: function () {
+            console.error("Error fetching car data.");
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
+
+<!-- turn on xampp apache server,
+ then go to localhost/lab/-->

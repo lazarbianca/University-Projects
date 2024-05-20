@@ -1,0 +1,282 @@
+body {
+  font-family: arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  margin: 18px 40px;
+  padding: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between; /* Align items to the ends */
+  align-items: center;
+}
+
+.header .logo {
+  height: 70px;
+  width: 190px;
+  background: url("./harvard-logo-light.svg");
+  background-repeat: no-repeat;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons .search-button {
+  font-size: 24px;
+  margin-top: -40px;
+  margin-right: 0px;
+}
+.header-buttons .menu-button {
+  font-size: 24px;
+  margin-top: -40px;
+  margin-right: 30px;
+}
+
+.menu-button {
+  background-color: #0e0e0e;
+  width: 167.3px;
+  height: 75px;
+  display: block;
+  z-index: 1;
+}
+.search-button {
+  background-color: black;
+  width: 167.3px;
+  height: 75px;
+  display: block;
+}
+svg {
+  z-index: 999;
+}
+i {
+  margin-top: -20px;
+}
+.button-text {
+  color: white; /* Color of text */
+  font-size: 16px; /* Adjust size as needed */
+  /* margin-top: 20px; */
+  text-transform: none;
+  padding: 0 39px 0 31px;
+}
+/* .menu-button-wrap {
+  display: block;
+} */
+/* .menu-button::before {
+  content: ""; /* Empty content for the button *
+  display: block;
+  width: 70%;
+  height: 4px; /* Thickness of menu button lines *
+  background-color: white; /* Color of menu button lines *
+  margin-bottom: 8px; /* Adjust spacing between lines *
+  z-index: 1;
+}
+
+.menu-button::after {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 4px;
+  background-color: white;
+
+  z-index: 1;
+} */
+
+/* i,
+svg,
+.logo {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 1;
+} */
+
+@media (max-width: 1100px) {
+  .header .logo {
+    width: 173px; /*190, 48*/
+    height: 54px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .logo {
+    width: 166px;
+    height: 42px;
+  }
+}
+
+h1 {
+  display: block;
+  unicode-bidi: isolate;
+  text-rendering: optimizeLegibility;
+}
+p {
+  text-rendering: optimizeLegibility;
+}
+
+.secondary-header {
+  position: relative;
+  display: flex;
+  height: 623px;
+  width: 100%;
+}
+.secondary-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 623px;
+  /* height: 84.5%; */
+  background-image: url(./harvard-campus.webp);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(48%);
+  display: flex;
+  z-index: -1;
+}
+
+.left-column {
+  flex: 1;
+  margin-top: 185px;
+}
+
+.right-column {
+  flex: 1;
+  position: inherit;
+  margin-top: 250px;
+  margin-left: 170px;
+  margin-right: 70px;
+}
+
+@font-face {
+  font-family: TT Ramillas Trial Medium;
+  src: url(./TT\ Ramillas\ Trial\ Medium.ttf);
+}
+
+@font-face {
+  font-family: Larken Medium;
+  src: url(./LarkenDEMO-Medium.ttf);
+}
+
+@font-face {
+  font-family: Larken Regular;
+  src: url(./LarkenDEMO-Regular.ttf);
+}
+.secondary-heading {
+  color: #f3f4f4;
+  top: 50px;
+  padding-left: 105px;
+  font-size: 86px;
+  /* line-height: 1.2; */
+  font-style: normal;
+  font-weight: 1;
+  letter-spacing: -5px;
+  font-family: TT Ramillas Trial Medium;
+  margin: 0;
+  z-index: 10;
+}
+/*.secondary-heading {
+  position: absolute;
+  top: 120px;
+  z-index: 4;
+  font-family: Canela Web;
+  flex: 1;
+}*/
+.header-description {
+  color: #f3f4f4;
+  font-size: 36px;
+  font-family: Larken Medium;
+  font-weight: lighter;
+  margin: 0;
+  z-index: 10;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px 100px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 23px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.content-wrap {
+  display: flex;
+  padding: 10px 72px 0;
+}
+h2 {
+  font-size: 52px;
+  padding: 0 24px 0 48px;
+  font-family: Larken Regular;
+  font-weight: lighter;
+}
+p {
+  font-size: 18px;
+  padding: 30px;
+}
+.content-left-column {
+  flex: 1;
+  /* max-width: 1440px; */
+}
+p a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.content-right-column {
+  flex: 1;
+  position: inherit;
+  /* margin-top: 300px;
+  margin-left: 200px;
+  margin-right: 70px; */
+}
+
+.bold-hr {
+  border: none;
+  height: 5px;
+  width: 85%;
+  background-color: black;
+}
+
+.second-content-wrap {
+  display: flex;
+}
+.graduates-img {
+  background-image: url("https://www.harvard.edu/wp-content/uploads/2023/05/052523_COM-2023-A_JC_1686-2000x1333.jpg");
+  height: 400.13px;
+  width: 590px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 140px;
+  margin-left: 120px;
+}
+.second-content-left-col {
+  flex: 1;
+}
+.second-content-right-col {
+  flex: 1;
+  margin-top: 140px;
+}

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.slideshow-container {
+  width: 95%;
+  height: 660px;
+  overflow: hidden;
+  margin: auto; /* to center align the slideshow*/
+}
+
+.slideshow-container img {
+  width: 100%; /* Set width to 100% to fill the container horizontally */
+  height: 100%; /* Set height to 100% to fill the container vertically */
+  object-fit: cover; /* Zoom in and crop if needed */
+}
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+#play-pause-btn {
+  display: block;
+  margin: 10px auto;
+}

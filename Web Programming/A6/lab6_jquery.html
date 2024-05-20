@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sliding Puzzle</title>
+    <link rel="stylesheet" href="./lab6_jquery_style.css" />
+    <script src="../jquery-3.7.1.js"></script>
+    <script src="./lab6_jquery_js.js"></script>
+  </head>
+  <body onload="loadPuzzle()">
+    <table>
+      <tbody>
+        <tr>
+          <td id="1" onclick="move(1,this);">
+            <!-- <img src="./cat5.jpg" /> -->
+          </td>
+          <td id="2" onclick="move(2,this);">
+            <!-- <img src="./cat14.jpg" /> -->
+          </td>
+          <td id="3" onclick="move(3,this);">
+            <!-- <img src="./cat8.jpg" /> -->
+          </td>
+          <td id="4" onclick="move(4,this);">
+            <!-- <img src="./cat1.jpg" /> -->
+          </td>
+        </tr>
+        <tr>
+          <td id="5" onclick="move(5,this);">
+            <!-- <img src="./cat16.jpg" /> -->
+          </td>
+          <td id="6" onclick="move(6,this);">
+            <!-- <img src="./cat16.jpg" /> -->
+          </td>
+          <td id="7" onclick="move(7,this);">
+            <!-- <img src="./cat11.jpg" /> -->
+          </td>
+          <td id="8" onclick="move(8,this);">
+            <!-- <img src="./cat4.jpg" /> -->
+          </td>
+        </tr>
+        <tr>
+          <td id="9" onclick="move(9,this);">
+            <!-- <img src="./cat15.jpg" /> -->
+          </td>
+          <td id="10" onclick="move(10,this);">
+            <!-- <img src="./cat7.jpg" /> -->
+          </td>
+          <td id="11" onclick="move(11,this);">
+            <!-- <img src="./cat9.jpg" /> -->
+          </td>
+          <td id="12" onclick="move(12,this);">
+            <!-- <img src="./cat12.jpg" /> -->
+          </td>
+        </tr>
+        <tr>
+          <td id="13" onclick="move(13,this);">
+            <!-- <img src="./cat6.jpg" /> -->
+          </td>
+          <td id="14" onclick="move(14,this);">
+            <!-- <img src="./cat10.jpg" /> -->
+          </td>
+          <td id="15" onclick="move(15,this);">
+            <!-- <img src="./cat3.jpg" /> -->
+          </td>
+          <td id="16" onclick="move(16,this);">
+            <!-- <img src="./empty.jpg" /> -->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

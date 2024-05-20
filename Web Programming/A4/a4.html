@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slideshow</title>
+    <link rel="stylesheet" type="text/css" href="./a4_style.css" />
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <img
+        class="slide"
+        src="https://images-assets.nasa.gov/image/carina_nebula/carina_nebula~medium.jpg"
+        alt="Image 1"
+      />
+      <img
+        class="slide"
+        src="https://stsci-opo.org/STScI-01GX655HMGYA3XH8EJ54Y26B0K.png"
+        alt="Image 2"
+      />
+      <img
+        class="slide"
+        src="https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002076/GSFC_20171208_Archive_e002076~medium.jpg"
+        alt="Image 3"
+      />
+      <img
+        class="slide"
+        src="https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001435/GSFC_20171208_Archive_e001435~medium.jpg"
+        alt="Image 3"
+      />
+    </div>
+
+    <button id="play-pause-btn">Play</button>
+    <label for="replay-checkbox">Replay after last image:</label>
+    <input type="checkbox" id="replay-checkbox" />
+    <label for="interval-select">Interval:</label>
+    <select id="interval-select">
+      <option value=""></option>
+      <option value="1000">1 second</option>
+      <option value="2000">2 seconds</option>
+      <option value="3000">3 seconds</option>
+      <option value="5000">5 seconds</option>
+    </select>
+
+    <script src="./a4_script.js" defer></script>
+  </body>
+</html>
