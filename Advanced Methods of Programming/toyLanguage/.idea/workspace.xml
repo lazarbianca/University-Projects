@@ -4,91 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd5ce610-57ee-4e85-8605-1c7bfb6b26e6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/toyLangGUI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/logFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/com/example/toylanguagegui/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/com/example/toylanguagegui/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/cotroller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/cotroller/PrgExecController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/cotroller/StartWindowController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/exceptions/ADTException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/exceptions/ControllerException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/exceptions/ExpException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/exceptions/FileException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/exceptions/MyException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/exceptions/StmtException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/expressions/ArithExp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/expressions/Exp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/expressions/LogicExp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/expressions/ReadFromHeap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/expressions/RelationalExp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/expressions/ValueExp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/expressions/VarExp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/programState/IDictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/programState/IHeap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/programState/IList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/programState/IStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/programState/MyDictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/programState/MyHeap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/programState/MyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/programState/MyStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/programState/PrgState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/AssignStmt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/CloseRFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/CompStmt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/ForkStmt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/IStmt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/IfStmt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/New.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/NopStmt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/OpenRFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/PrintStmt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/ReadFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/VarDeclStmt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/WhileStmt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/statements/WriteToHeap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/types/BoolType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/types/IntType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/types/RefType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/types/StringType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/types/Type.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/values/BoolValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/values/IntValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/values/RefValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/values/StringValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/model/values/Value.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/repository/IRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/repository/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/test.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/test_empty.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/view/Interpreter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/view/TextMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/view/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/view/commands/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/view/commands/ExitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/java/toyLanguage/view/commands/RunExampleCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/resources/com/example/toylanguagegui/executingProgram.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toyLanguageGUI/src/main/resources/com/example/toylanguagegui/startWindow.fxml" beforeDir="false" />
-    </list>
+    <list default="true" id="fd5ce610-57ee-4e85-8605-1c7bfb6b26e6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,23 +25,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/University-Projects/Advanced Methods of Programming/toyLanguage_old",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/University-Projects/Advanced Methods of Programming/toyLanguage_old&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -138,6 +54,7 @@
       <workItem from="1709399620547" duration="998000" />
       <workItem from="1709401379554" duration="1255000" />
       <workItem from="1711049609997" duration="955000" />
+      <workItem from="1728497542401" duration="837000" />
     </task>
     <servers />
   </component>
